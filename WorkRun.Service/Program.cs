@@ -1,13 +1,16 @@
 using WorkRun.Service;
 
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
-IConfiguration Configuration = app.Configuration;
+
+IConfiguration Configuration = builder.Configuration;
 ConfigureService(builder.Services);
+
+var app = builder.Build();
 Configure(app, builder.Environment);
 
 static void ConfigureService(IServiceCollection services)
 {
+    services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
     services.AddControllers(c =>
     {
         c.Filters.Add(new ServiceRunFilter());
@@ -20,9 +23,12 @@ static void Configure(WebApplication app, IWebHostEnvironment env)
     {
         app.UseDeveloperExceptionPage();
     }
+    app.UseRouting();
 
     app.UseEndpoints(routes =>
     {
         routes.MapControllers();
     });
+
+    app.Run();
 }

@@ -6,9 +6,9 @@ namespace WorkRun.BaseDb
     {
         public WorkRunContext _ctx { get; set; }
 
-        public async Task<bool> Save()
+        public async Task<bool> SaveAsync()
         {
-            return await _ctx.Save();
+            return await _ctx.SaveAsync();
         }
     }
 }

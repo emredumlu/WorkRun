@@ -9,7 +9,7 @@ namespace WorkRun.Service.Controller
     [Route("[controller]")]
     public class PersonController : ControllerBase, IServiceController
     {
-        PersonRepo _repo;
+        private PersonRepo _repo;
         private readonly IMapper _mapper;
         public PersonController(IMapper mapper)
         {
@@ -18,12 +18,17 @@ namespace WorkRun.Service.Controller
 
         public void SetProps(WorkRunContext context)
         {
-            _repo = new(context);
+            _repo = new PersonRepo(context);
         }
 
-        public async Task<ActionResult<WorkResult>> InsertPerson([FromBody]PersonDto person)
+        [HttpPost("insertPerson")]
+        public async Task<ActionResult<WorkResult>> InsertPerson([FromBody] PersonDto person)
         {
-            return Ok();
+            Person personEntity = _mapper.Map<Person>(person);
+            _repo.InsertPerson(personEntity);
+            var result = await _repo.SaveAsync();
+
+            return Ok(result);
         }
     }
 }
