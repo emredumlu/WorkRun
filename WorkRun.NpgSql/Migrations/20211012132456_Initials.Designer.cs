@@ -10,7 +10,7 @@ using WorkRun.NpgSql;
 namespace WorkRun.NpgSql.Migrations
 {
     [DbContext(typeof(NpgContext))]
-    [Migration("20211012060747_Initials")]
+    [Migration("20211012132456_Initials")]
     partial class Initials
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,11 +26,6 @@ namespace WorkRun.NpgSql.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
-
-                    b.Property<long>("Counter")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
-                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("timestamp without time zone");

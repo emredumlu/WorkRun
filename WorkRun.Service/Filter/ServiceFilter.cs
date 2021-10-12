@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using WorkRun.BaseDb;
+using WorkRun.MariaSql;
 using WorkRun.NpgSql;
 
 namespace WorkRun.Service
@@ -10,7 +11,9 @@ namespace WorkRun.Service
         {
             if (context.Controller is IServiceController controller)
             {
-                WorkRunContext ctx = new NpgContext();
+                var dbKey = context.HttpContext.Request.Headers["db-type"];
+
+                WorkRunContext ctx = dbKey == "1" ? new NpgContext() : new MariaContext();
                 controller.SetProps(ctx);
             }
 

@@ -9,7 +9,7 @@ using WorkRun.MariaSql;
 namespace WorkRun.MariaSql.Migrations
 {
     [DbContext(typeof(MariaContext))]
-    [Migration("20211012060725_Initials")]
+    [Migration("20211012132439_Initials")]
     partial class Initials
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,10 +24,6 @@ namespace WorkRun.MariaSql.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
-
-                    b.Property<long>("Counter")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
 
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime(6)");

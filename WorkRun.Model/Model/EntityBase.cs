@@ -10,9 +10,6 @@ namespace WorkRun.BaseDb
         public Guid Id { get; set; }
         public DateTime ModifierDate { get; set; }
         public DateTime CreateDate { get; set; }
-
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long Counter { get; private set; } 
         public uint RowVersion { get; private set; }
         public int UpdateCount { get; set; }
     }

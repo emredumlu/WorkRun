@@ -11,4 +11,8 @@
     <PackageReference Include="MaterialDesignThemes" Version="4.2.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WorkRun.Wpf.BL\WorkRun.Wpf.BL.csproj" />
+  </ItemGroup>
+
 </Project>

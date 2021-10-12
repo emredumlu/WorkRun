@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WorkRun.MariaSql.Migrations
@@ -30,8 +29,6 @@ namespace WorkRun.MariaSql.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ModifierDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     CreateDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    Counter = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     RowVersion = table.Column<uint>(type: "int unsigned", nullable: false),
                     UpdateCount = table.Column<int>(type: "int", nullable: false)
                 },

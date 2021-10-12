@@ -23,10 +23,6 @@ namespace WorkRun.MariaSql.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<long>("Counter")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime(6)");
 

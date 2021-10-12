@@ -26,7 +26,10 @@ namespace WorkRun.Service.Controller
         {
             Person personEntity = _mapper.Map<Person>(person);
             _repo.InsertPerson(personEntity);
-            var result = await _repo.SaveAsync();
+            WorkResult result = new()
+            {
+                IsOk = await _repo.SaveAsync()
+            };
 
             return Ok(result);
         }

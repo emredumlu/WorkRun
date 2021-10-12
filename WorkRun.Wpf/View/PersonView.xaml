@@ -12,54 +12,89 @@
     FontFamily="{DynamicResource MaterialDesignFont}"
     mc:Ignorable="d">
     <Grid x:Name="LayoutRoot" Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
         <Grid>
-            <TextBlock Style="{StaticResource txtBlock}" Text="Ad" />
-            <TextBox
-                x:Name="txtName"
-                Width="200"
-                Height="30"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Top"
-                Style="{StaticResource txtBoxMain}" />
-        </Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
 
-        <Grid Grid.Row="1">
-            <TextBlock Style="{StaticResource txtBlock}" Text="Soyad" />
-            <TextBox
-                Width="200"
-                Height="30"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Top"
-                Style="{StaticResource txtBoxMain}" />
-        </Grid>
 
-        <Grid Grid.Row="2">
-            <TextBlock Style="{StaticResource txtBlock}" Text="Tck No" />
-            <TextBox
-                Width="200"
-                Height="30"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Top"
-                MaxLength="11"
-                Style="{StaticResource txtBoxMain}" />
-        </Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-        <Grid Grid.Row="3">
-            <TextBlock Style="{StaticResource txtBlock}" Text="Vkn No" />
-            <TextBox
-                Width="200"
-                Height="30"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Top"
-                MaxLength="10"
-                Style="{StaticResource txtBoxMain}" />
-        </Grid>
+            <Grid>
+                <TextBlock Style="{StaticResource txtBlock}" Text="Ad" />
+                <TextBox
+                    x:Name="txtName"
+                    Width="200"
+                    Height="30"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Style="{StaticResource txtBoxMain}"
+                    Text="{Binding Person.Name, Mode=TwoWay}" />
+            </Grid>
 
+            <Grid Grid.Row="1">
+                <TextBlock Style="{StaticResource txtBlock}" Text="Soyad" />
+                <TextBox
+                    Width="200"
+                    Height="30"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Style="{StaticResource txtBoxMain}"
+                    Text="{Binding Person.SurName, Mode=TwoWay}" />
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <TextBlock Style="{StaticResource txtBlock}" Text="Tck No" />
+                <TextBox
+                    Width="200"
+                    Height="30"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    MaxLength="11"
+                    Style="{StaticResource txtBoxMain}"
+                    Text="{Binding Person.Idn, Mode=TwoWay}" />
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <TextBlock Style="{StaticResource txtBlock}" Text="Vkn No" />
+                <TextBox
+                    Width="200"
+                    Height="30"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    MaxLength="10"
+                    Style="{StaticResource txtBoxMain}"
+                    Text="{Binding Person.TaxNumber, Mode=TwoWay}" />
+            </Grid>
+
+            <Button
+                Grid.Row="4"
+                Width="100"
+                Height="28"
+                Margin="10,12,15,1"
+                Padding="0"
+                HorizontalAlignment="Right"
+                Click="Save_Click">
+
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon
+                        Width="16"
+                        Height="16"
+                        Margin="0,0,3,0"
+                        Kind="Calculator"
+                        Opacity="0.6" />
+                    <TextBlock VerticalAlignment="Center" Text="Kaydet" />
+                </StackPanel>
+
+            </Button>
+        </Grid>
     </Grid>
 </UserControl>

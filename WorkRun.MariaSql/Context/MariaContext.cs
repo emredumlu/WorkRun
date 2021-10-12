@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using WorkRun.BaseDb;
 
 namespace WorkRun.MariaSql
@@ -17,7 +18,7 @@ namespace WorkRun.MariaSql
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql(ServerVersion.AutoDetect(CnnStr));
+            optionsBuilder.UseMySql(CnnStr, ServerVersion.AutoDetect(CnnStr), b => b.SchemaBehavior(MySqlSchemaBehavior.Ignore));
             base.OnConfiguring(optionsBuilder);
         }
 

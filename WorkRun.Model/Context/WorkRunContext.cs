@@ -10,22 +10,26 @@ namespace WorkRun.BaseDb
         public DbSet<Person> Persons { get; set; }
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            var entities = modelBuilder.Model.GetEntityTypes();
-            foreach (var entity in entities)
-            {
-                if (entity.ClrType == typeof(EntityBase))
-                {
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    var entities = modelBuilder.Model.GetEntityTypes();
+        //    foreach (var entity in entities)
+        //    {
+        //        if (entity.ClrType == typeof(EntityBase))
+        //        {
 
-                    modelBuilder.Entity(entity.Name)
-                        .Property("Counter")
-                        .ValueGeneratedOnAdd();
-                }
-            }
+        //            modelBuilder.Entity(entity.Name)
+        //                .HasAlternateKey("Counter");
 
-            base.OnModelCreating(modelBuilder);
-        }
+        //            modelBuilder.Entity(entity.Name)
+        //                .Property("Counter")
+        //                .ValueGeneratedOnAdd();
+
+        //        }
+        //    }
+
+        //    base.OnModelCreating(modelBuilder);
+        //}
         public async Task<bool> SaveAsync()
         {
             var entities = ChangeTracker.Entries<EntityBase>();
