@@ -10,7 +10,7 @@ using WorkRun.NpgSql;
 namespace WorkRun.NpgSql.Migrations
 {
     [DbContext(typeof(NpgContext))]
-    [Migration("20211011141503_Initials")]
+    [Migration("20211012060747_Initials")]
     partial class Initials
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,6 +27,11 @@ namespace WorkRun.NpgSql.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<long>("Counter")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("timestamp without time zone");
 
@@ -41,6 +46,9 @@ namespace WorkRun.NpgSql.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
 
+                    b.Property<long>("RowVersion")
+                        .HasColumnType("bigint");
+
                     b.Property<string>("SurName")
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
@@ -48,6 +56,9 @@ namespace WorkRun.NpgSql.Migrations
                     b.Property<string>("TaxNumber")
                         .HasMaxLength(10)
                         .HasColumnType("character varying(10)");
+
+                    b.Property<int>("UpdateCount")
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 

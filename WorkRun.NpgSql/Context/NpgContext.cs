@@ -20,5 +20,24 @@ namespace WorkRun.NpgSql
             optionsBuilder.UseNpgsql(CnnStr);
             base.OnConfiguring(optionsBuilder);
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            var entities = modelBuilder.Model.GetEntityTypes();
+            foreach (var entity in entities)
+            {
+                if (entity.ClrType == typeof(EntityBase))
+                {
+                    modelBuilder.Entity(entity.Name)
+                    .Property<uint>("RowVersion")
+                    .HasColumnName("xmin")
+                    .HasColumnType("xid")
+                    .ValueGeneratedOnAddOrUpdate()
+                    .IsConcurrencyToken();
+                }
+            }
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

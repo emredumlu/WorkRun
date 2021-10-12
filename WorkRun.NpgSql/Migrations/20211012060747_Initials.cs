@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace WorkRun.NpgSql.Migrations
 {
@@ -21,7 +22,11 @@ namespace WorkRun.NpgSql.Migrations
                     Name = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: true),
                     SurName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: true),
                     ModifierDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
-                    CreateDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false)
+                    CreateDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    Counter = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    RowVersion = table.Column<long>(type: "bigint", nullable: false),
+                    UpdateCount = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -1,7 +1,9 @@
-﻿namespace WorkRun.Service
+﻿using WorkRun.BaseDb;
+
+namespace WorkRun.Service
 {
     public interface IServiceController
     {
-        void SetProps(HttpContext context);
+        void SetProps(WorkRunContext context);
     }
 }

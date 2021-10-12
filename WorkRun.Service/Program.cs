@@ -1,5 +1,3 @@
-
-using WorkRun.BaseDb;
 using WorkRun.Service;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +8,10 @@ Configure(app, builder.Environment);
 
 static void ConfigureService(IServiceCollection services)
 {
-
+    services.AddControllers(c =>
+    {
+        c.Filters.Add(new ServiceRunFilter());
+    });
 }
 
 static void Configure(WebApplication app, IWebHostEnvironment env)
@@ -20,7 +21,8 @@ static void Configure(WebApplication app, IWebHostEnvironment env)
         app.UseDeveloperExceptionPage();
     }
 
-    app.ImgMiddleware();
-
-    app.Run();
+    app.UseEndpoints(routes =>
+    {
+        routes.MapControllers();
+    });
 }
