@@ -5,4 +5,14 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WorkRun.Core\WorkRun.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Bag_3.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,1060 @@
+﻿{
+    "ulkeler":  [
+        {
+          "code": "1",
+          "name": "Yurtiçi"
+        },
+        {
+          "code": "2",
+          "name": "Yurtdışı"
+        }
+      ],
+    "ilKodu":[
+        {
+          "code": "0",
+          "description": "YURTDIŞI"
+        },
+        {
+          "code": "1",
+          "description": "ADANA"
+        },
+        {
+          "code": "2",
+          "description": "ADIYAMAN"
+        },
+        {
+          "code": "3",
+          "description": "AFYONKARAHİSAR"
+        },
+        {
+          "code": "4",
+          "description": "AĞRI"
+        },
+        {
+          "code": "5",
+          "description": "AMASYA"
+        },
+        {
+          "code": "6",
+          "description": "ANKARA"
+        },
+        {
+          "code": "7",
+          "description": "ANTALYA"
+        },
+        {
+          "code": "8",
+          "description": "ARTVİN"
+        },
+        {
+          "code": "9",
+          "description": "AYDIN"
+        },
+        {
+          "code": "10",
+          "description": "BALIKESİR"
+        },
+        {
+          "code": "11",
+          "description": "BİLECİK"
+        },
+        {
+          "code": "12",
+          "description": "BİNGÖL"
+        },
+        {
+          "code": "13",
+          "description": "BİTLİS"
+        },
+        {
+          "code": "14",
+          "description": "BOLU"
+        },
+        {
+          "code": "15",
+          "description": "BURDUR"
+        },
+        {
+          "code": "16",
+          "description": "BURSA"
+        },
+        {
+          "code": "17",
+          "description": "ÇANAKKALE"
+        },
+        {
+          "code": "18",
+          "description": "ÇANKIRI"
+        },
+        {
+          "code": "19",
+          "description": "ÇORUM"
+        },
+        {
+          "code": "20",
+          "description": "DENİZLİ"
+        },
+        {
+          "code": "21",
+          "description": "DİYARBAKIR"
+        },
+        {
+          "code": "22",
+          "description": "EDİRNE"
+        },
+        {
+          "code": "23",
+          "description": "ELAZIĞ"
+        },
+        {
+          "code": "24",
+          "description": "ERZİNCAN"
+        },
+        {
+          "code": "25",
+          "description": "ERZURUM"
+        },
+        {
+          "code": "26",
+          "description": "ESKİŞEHİR"
+        },
+        {
+          "code": "27",
+          "description": "GAZİANTEP"
+        },
+        {
+          "code": "28",
+          "description": "GİRESUN"
+        },
+        {
+          "code": "29",
+          "description": "GÜMÜŞHANE"
+        },
+        {
+          "code": "30",
+          "description": "HAKKARİ"
+        },
+        {
+          "code": "31",
+          "description": "HATAY"
+        },
+        {
+          "code": "32",
+          "description": "ISPARTA"
+        },
+        {
+          "code": "33",
+          "description": "MERSİN"
+        },
+        {
+          "code": "34",
+          "description": "İSTANBUL"
+        },
+        {
+          "code": "35",
+          "description": "İZMİR"
+        },
+        {
+          "code": "36",
+          "description": "KARS"
+        },
+        {
+          "code": "37",
+          "description": "KASTAMONU"
+        },
+        {
+          "code": "38",
+          "description": "KAYSERİ"
+        },
+        {
+          "code": "39",
+          "description": "KIRKLARELİ"
+        },
+        {
+          "code": "40",
+          "description": "KIRŞEHİR"
+        },
+        {
+          "code": "41",
+          "description": "KOCAELİ"
+        },
+        {
+          "code": "42",
+          "description": "KONYA"
+        },
+        {
+          "code": "43",
+          "description": "KÜTAHYA"
+        },
+        {
+          "code": "44",
+          "description": "MALATYA"
+        },
+        {
+          "code": "45",
+          "description": "MANİSA"
+        },
+        {
+          "code": "46",
+          "description": "KAHRAMANMARAŞ"
+        },
+        {
+          "code": "47",
+          "description": "MARDİN"
+        },
+        {
+          "code": "48",
+          "description": "MUĞLA"
+        },
+        {
+          "code": "49",
+          "description": "MUŞ"
+        },
+        {
+          "code": "50",
+          "description": "NEVŞEHİR"
+        },
+        {
+          "code": "51",
+          "description": "NİĞDE"
+        },
+        {
+          "code": "52",
+          "description": "ORDU"
+        },
+        {
+          "code": "53",
+          "description": "RİZE"
+        },
+        {
+          "code": "54",
+          "description": "SAKARYA"
+        },
+        {
+          "code": "55",
+          "description": "SAMSUN"
+        },
+        {
+          "code": "56",
+          "description": "SİİRT"
+        },
+        {
+          "code": "57",
+          "description": "SİNOP"
+        },
+        {
+          "code": "58",
+          "description": "SİVAS"
+        },
+        {
+          "code": "59",
+          "description": "TEKİRDAĞ"
+        },
+        {
+          "code": "60",
+          "description": "TOKAT"
+        },
+        {
+          "code": "61",
+          "description": "TRABZON"
+        },
+        {
+          "code": "62",
+          "description": "TUNCELİ"
+        },
+        {
+          "code": "63",
+          "description": "ŞANLIURFA"
+        },
+        {
+          "code": "64",
+          "description": "UŞAK"
+        },
+        {
+          "code": "65",
+          "description": "VAN"
+        },
+        {
+          "code": "66",
+          "description": "YOZGAT"
+        },
+        {
+          "code": "67",
+          "description": "ZONGULDAK"
+        },
+        {
+          "code": "68",
+          "description": "AKSARAY"
+        },
+        {
+          "code": "69",
+          "description": "BAYBURT"
+        },
+        {
+          "code": "70",
+          "description": "KARAMAN"
+        },
+        {
+          "code": "71",
+          "description": "KIRIKKALE"
+        },
+        {
+          "code": "72",
+          "description": "BATMAN"
+        },
+        {
+          "code": "73",
+          "description": "ŞIRNAK"
+        },
+        {
+          "code": "74",
+          "description": "BARTIN"
+        },
+        {
+          "code": "75",
+          "description": "ARDAHAN"
+        },
+        {
+          "code": "76",
+          "description": "IĞDIR"
+        },
+        {
+          "code": "77",
+          "description": "YALOVA"
+        },
+        {
+          "code": "78",
+          "description": "KARABÜK"
+        },
+        {
+          "code": "79",
+          "description": "KİLİS"
+        },
+        {
+          "code": "80",
+          "description": "OSMANİYE"
+        },
+        {
+          "code": "81",
+          "description": "DÜZCE"
+        }
+      ],
+    "grupKodlari": [
+        {
+          "code": "1",
+          "name": "PİL"
+        },
+        {
+          "code": "2",
+          "name": "MADENİ YAĞ"
+        },
+        {
+          "code": "3",
+          "name": "İLAÇ"
+        },
+        {
+          "code": "4",
+          "name": "ELEKTRİKLİ VE ELEKTRONİK EŞYA"
+        },
+        {
+          "code": "5",
+          "name": "BİTKİSEL YAĞLAR"
+        },
+        {
+          "code": "6",
+          "name": "AMBALAJ"
+        },
+        {
+          "code": "7",
+          "name": "AKÜMÜLATÖR"
+        },
+        {
+          "code": "8",
+          "name": "LASTİK"
+        }
+      ],
+    "urunler":[
+        {
+          "code": "1",
+          "group": "PİL",
+          "product": "ÇİNKO KARBON PİLLER",
+          "amount": 2.1,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "2",
+          "group": "PİL",
+          "product": "ALKALİ SİLİNDİRİK PİLLER",
+          "amount": 2.1,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "3",
+          "group": "PİL",
+          "product": "ALKALİ DÜĞME PİLLER",
+          "amount": 3.2,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "4",
+          "group": "PİL",
+          "product": "DÜĞME PİLLER(ÇİNKO-HAVA VE GÜMÜŞ OKSİTLİ",
+          "amount": 10.9,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "5",
+          "group": "PİL",
+          "product": "LİTYUM DÜĞME PİLLER",
+          "amount": 10.9,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "6",
+          "group": "PİL",
+          "product": "LİTYUM SİLİNDİRİK ŞARJLI VE PRİMER PİL ÇEŞİTLERİ(ARAÇ BATARYALARI HARİÇ)",
+          "amount": 5.4,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "7",
+          "group": "PİL",
+          "product": "OTOMOTİV PİLLERİ(KURŞUN İÇERENLER HARİÇ)",
+          "amount": 16,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "8",
+          "group": "PİL",
+          "product": "LİTYUM İÇEREN ARAÇ BATARYALARI",
+          "amount": 16,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "9",
+          "group": "PİL",
+          "product": "DİĞER ŞARJLI PİLLER",
+          "amount": 5.4,
+          "unit": "TL/KG"
+        },
+        {
+          "code": "10",
+          "group": "MADENİ YAĞ",
+          "product": "MADENİ YAĞ",
+          "amount": 54,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "11",
+          "group": "İLAÇ",
+          "product": "BEŞERİ İLAÇ(KUTU/ŞİŞE)",
+          "amount": 1.09,
+          "unit": "KR/KUTU-ŞİŞE"
+        },
+        {
+          "code": "12",
+          "group": "İLAÇ",
+          "product": "ZİRAİ İLAÇ(KUTU/ŞİŞE)",
+          "amount": 1.09,
+          "unit": "KR/KUTU-ŞİŞE"
+        },
+        {
+          "code": "13",
+          "group": "İLAÇ",
+          "product": "VETERİNER İLAÇLARI(KUTU/ŞİŞE)",
+          "amount": 1.09,
+          "unit": "KR/KUTU-ŞİŞE"
+        },
+        {
+          "code": "14",
+          "group": "ELEKTRİKLİ VE ELEKTRONİK EŞYA",
+          "product": "TELEVİZYON/MONİTÖR",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "15",
+          "group": "ELEKTRİKLİ VE ELEKTRONİK EŞYA",
+          "product": "BİLİŞİM TELEKOMÜNİKASYON EKİPMANLARI (TELEVİZYON VE MONİTÖRLER HARİÇ)",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "16",
+          "group": "ELEKTRİKLİ VE ELEKTRONİK EŞYA",
+          "product": "AYDINLATMA EKİPMANLARI",
+          "amount": 10.9,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "17",
+          "group": "ELEKTRİKLİ VE ELEKTRONİK EŞYA",
+          "product": "KÜÇÜK EV ALETLERİ VE DİĞERLERİ",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "18",
+          "group": "ELEKTRİKLİ VE ELEKTRONİK EŞYA",
+          "product": "BEYAZ EŞYALAR(BUZDOLABI,SOĞUTUCULAR,İKLİMLENDİRME CİHAZLARI HARİÇ)",
+          "amount": 27,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "19",
+          "group": "ELEKTRİKLİ VE ELEKTRONİK EŞYA",
+          "product": "BUZDOLABI,SOĞUTUCULAR/İKLİMLENDİRME CİHAZLARI",
+          "amount": 32,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "20",
+          "group": "BİTKİSEL YAĞLAR",
+          "product": "BİTKİSEL YAĞLAR",
+          "amount": 10.9,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "21",
+          "group": "AMBALAJ",
+          "product": "PLASTİK İÇECEK AMBALAJLARI 0,33 LİTREYE KADAR",
+          "amount": 1.09,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "22",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI 0,33 LİTREYE KADAR",
+          "amount": 1.09,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "23",
+          "group": "AMBALAJ",
+          "product": "PLASTİK İÇECEK AMBALAJLARI 0,3301-0,75 LİTRE ARASI",
+          "amount": 2.1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "24",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI 0,3301-0,75 LİTRE ARASI",
+          "amount": 2.1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "25",
+          "group": "AMBALAJ",
+          "product": "PLASTİK İÇECEK AMBALAJLARI 0,7501-1,5 LİTRE ARASI",
+          "amount": 3.2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "26",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI 0,7501-1,5 LİTRE ARASI",
+          "amount": 3.2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "27",
+          "group": "AMBALAJ",
+          "product": "PLASTİK İÇECEK AMBALAJLARI 1,501 LİTRE VE ÜZERİ",
+          "amount": 4.3,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "28",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI 1,501 LİTRE VE ÜZERİ",
+          "amount": 4.3,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "29",
+          "group": "AMBALAJ",
+          "product": "PLASTİK AMBALAJ (ÜCRETLİ VERİLEN POŞETLER HARİÇ)",
+          "amount": 43,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "30",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK AMBALAJ (ÜCRETLİ VERİLEN POŞETLER HARİÇ)",
+          "amount": 43,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "31",
+          "group": "AMBALAJ",
+          "product": "METAL İÇECEK AMBALAJLARI",
+          "amount": 3.2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "32",
+          "group": "AMBALAJ",
+          "product": "Depozitolu METAL İÇECEK AMBALAJLARI",
+          "amount": 3.2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "33",
+          "group": "AMBALAJ",
+          "product": "METAL AMBALAJ DİĞERLERİ",
+          "amount": 54,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "34",
+          "group": "AMBALAJ",
+          "product": "Depozitolu METAL AMBALAJ DİĞERLERİ",
+          "amount": 54,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "35",
+          "group": "AMBALAJ",
+          "product": "KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,25 LİTREYE KADAR",
+          "amount": 1.09,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "36",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,25 LİTREYE KADAR",
+          "amount": 1.09,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "37",
+          "group": "AMBALAJ",
+          "product": "KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,2501-0,5 LİTRE ARASI",
+          "amount": 2.1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "38",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,2501-0,5 LİTRE ARASI",
+          "amount": 2.1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "39",
+          "group": "AMBALAJ",
+          "product": "KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,501 LİTRE VE ÜZERİ",
+          "amount": 4.3,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "40",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,501 LİTRE VE ÜZERİ",
+          "amount": 4.3,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "41",
+          "group": "AMBALAJ",
+          "product": "KOMPOZİT DİĞERLERİ",
+          "amount": 54,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "42",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI DİĞERLERİ",
+          "amount": 54,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "43",
+          "group": "AMBALAJ",
+          "product": "KAĞIT-KARTON AMBALAJLARI",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "44",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KAĞIT-KARTON AMBALAJLARI",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "45",
+          "group": "AMBALAJ",
+          "product": "CAM İÇECEK AMBALAJLARI 0,25 LİTREYE KADAR",
+          "amount": 1.09,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "46",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 0,25 LİTREYE KADAR",
+          "amount": 1.09,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "47",
+          "group": "AMBALAJ",
+          "product": "CAM İÇECEK AMBALAJLARI 0,2501-0,5 LİTRE ARASI",
+          "amount": 2.1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "48",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 0,2501-0,5 LİTRE ARASI",
+          "amount": 2.1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "49",
+          "group": "AMBALAJ",
+          "product": "CAM İÇECEK AMBALAJLARI 0,501-1 LİTRE ARASI",
+          "amount": 3.2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "50",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 0,501-1 LİTRE ARASI",
+          "amount": 3.2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "51",
+          "group": "AMBALAJ",
+          "product": "CAM İÇECEK AMBALAJLARI 1,01-5 LİTRE ARASI",
+          "amount": 5.4,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "52",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 1,01-5 LİTRE ARASI",
+          "amount": 5.4,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "53",
+          "group": "AMBALAJ",
+          "product": "CAM İÇECEK AMBALAJLARI 5,01 LİTRE VE ÜZERİ",
+          "amount": 10.9,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "54",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 5,01 LİTRE VE ÜZERİ",
+          "amount": 10.9,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "55",
+          "group": "AMBALAJ",
+          "product": "CAM AMBALAJ DİĞERLERİ",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "56",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM AMBALAJ DİĞERLERİ",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "57",
+          "group": "AMBALAJ",
+          "product": "AHŞAP AMBALAJ",
+          "amount": 10.9,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "58",
+          "group": "AMBALAJ",
+          "product": "Depozitolu AHŞAP AMBALAJ",
+          "amount": 10.9,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "59",
+          "group": "AKÜMÜLATÖR",
+          "product": "KURŞUN ASİTLİ OLANLAR",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "60",
+          "group": "AKÜMÜLATÖR",
+          "product": "Depozitolu KURŞUN ASİTLİ OLANLAR",
+          "amount": 21,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "61",
+          "group": "AKÜMÜLATÖR",
+          "product": "NİKEL KADMİYUMLU OLANLAR",
+          "amount": 54,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "62",
+          "group": "AKÜMÜLATÖR",
+          "product": "Depozitolu NİKEL KADMİYUMLU OLANLAR",
+          "amount": 54,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "63",
+          "group": "AKÜMÜLATÖR",
+          "product": "DİĞERLERİ",
+          "amount": 5.4,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "64",
+          "group": "AKÜMÜLATÖR",
+          "product": "Depozitolu DİĞERLERİ",
+          "amount": 5.4,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "65",
+          "group": "LASTİK",
+          "product": "BİNEK ARAÇ LASTİKLERİ",
+          "amount": 2.1,
+          "unit": "TL/ADET"
+        },
+        {
+          "code": "66",
+          "group": "LASTİK",
+          "product": "OTOBÜS,KAMYON,KAMYONET,YÜKLEYİCİ VE KAZICI LASTİKLERİ VE DİĞERLERİ",
+          "amount": 4.3,
+          "unit": "TL/ADET"
+        },
+        {
+          "code": "6",
+          "group": "LASTİK",
+          "product": "İŞ MAKİNASI LASTİKLERİ",
+          "amount": 10.9,
+          "unit": "TL/ADET"
+        },
+        {
+          "code": "68",
+          "group": "LASTİK",
+          "product": "DOLGU LASTİKLER",
+          "amount": 5.4,
+          "unit": "TL/ADET"
+        }
+      ],
+    "dayanaklar":[
+        {
+          "code": "1",
+          "name": "GEKAP Yönetmeliği Madde 5/10 kapsamında Araç"
+        },
+        {
+          "code": "2",
+          "name": "GEKAP Yönetmeliği Madde 5/10 kapsamında Elektrikli ve Elektronik Eşya"
+        },
+        {
+          "code": "3",
+          "name": "GEKAP Yönetmeliği Madde 5/11 kapsamında Araç"
+        },
+        {
+          "code": "4",
+          "name": "GEKAP Yönetmeliği Madde 5/11 kapsamında Elektrikli ve Elektronik Eşya"
+        },
+        {
+          "code": "5",
+          "name": "GEKAP Yönetmeliği Madde 5/12 kapsamında Metal Ambalaj"
+        },
+        {
+          "code": "6",
+          "name": "GEKAP Yönetmeliği Madde 5/12 kapsamında Plastik Ambalaj"
+        },
+        {
+          "code": "7",
+          "name": "GEKAP Yönetmeliği Madde 5/12 kapsamında Cam Ambalaj"
+        },
+        {
+          "code": "8",
+          "name": "GEKAP Yönetmeliği Madde 5/12 kapsamında Ahşap Ambalaj"
+        },
+        {
+          "code": "9",
+          "name": "GEKAP Yönetmeliği Madde 5/12 kapsamında Kağıt/Karton Ambalaj"
+        },
+        {
+          "code": "10",
+          "name": "GEKAP Yönetmeliği Madde 5/12 kapsamında Kompozit Ambalaj"
+        },
+        {
+          "code": "11",
+          "name": "GEKAP Yönetmeliği Madde 5/16 kapsamında Yağlar"
+        },
+        {
+          "code": "12",
+          "name": "GEKAP yönetmeliği Madde 5/16 kapsamında Piller"
+        }
+      ],
+    "oncekiyildepozito": [
+        {
+          "code": "22",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI 0,33 LİTREYE KADAR",
+          "amount": 1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "24",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI 0,3301-0,75 LİTRE ARASI",
+          "amount": 2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "26",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI 0,7501-1,5 LİTRE ARASI",
+          "amount": 3,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "28",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI 1,501 LİTRE VE ÜZERİ",
+          "amount": 4,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "30",
+          "group": "AMBALAJ",
+          "product": "Depozitolu PLASTİK İÇECEK AMBALAJLARI POŞET HARİÇ DİĞERLERİ",
+          "amount": 40,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "32",
+          "group": "AMBALAJ",
+          "product": "Depozitolu METAL İÇECEK AMBALAJLARI",
+          "amount": 3,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "34",
+          "group": "AMBALAJ",
+          "product": "Depozitolu METAL AMBALAJ DİĞERLERİ",
+          "amount": 50,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "36",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,25 LİTREYE KADAR",
+          "amount": 1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "38",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,2501-0,5 LİTRE ARASI",
+          "amount": 2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "40",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI 0,501 LİTRE VE ÜZERİ",
+          "amount": 4,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "42",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AĞIRLIKLI İÇECEK AMBALAJLARI DİĞERLERİ",
+          "amount": 50,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "44",
+          "group": "AMBALAJ",
+          "product": "Depozitolu KOMPOZİT KAĞIT-KARTON AMBALAJLARI",
+          "amount": 20,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "46",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 0,25 LİTREYE KADAR",
+          "amount": 1,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "48",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 0,2501-0,5 LİTRE ARASI",
+          "amount": 2,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "50",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 0,501-1 LİTRE ARASI",
+          "amount": 3,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "52",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 1,01-5 LİTRE ARASI",
+          "amount": 5,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "54",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI 5,01 LİTRE VE ÜZERİ",
+          "amount": 10,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "56",
+          "group": "AMBALAJ",
+          "product": "Depozitolu CAM İÇECEK AMBALAJLARI DİĞERLERİ",
+          "amount": 20,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "58",
+          "group": "AMBALAJ",
+          "product": "Depozitolu AHŞAP AMBALAJ",
+          "amount": 10,
+          "unit": "KR/ADET"
+        },
+        {
+          "code": "60",
+          "group": "AKÜMÜLATÖR",
+          "product": "Depozitolu KURŞUN ASİTLİ OLANLAR",
+          "amount": 20,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "62",
+          "group": "AKÜMÜLATÖR",
+          "product": "Depozitolu NİKEL KADMİYUMLU OLANLAR",
+          "amount": 50,
+          "unit": "KR/KG"
+        },
+        {
+          "code": "64",
+          "group": "AKÜMÜLATÖR",
+          "product": "Depozitolu DİĞERLERİ",
+          "amount": 5,
+          "unit": "KR/KG"
+        }
+      ]
+    }

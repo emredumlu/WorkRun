@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using WorkRun.Core;
 
 namespace WorkRun.ConsoleApp
 {
@@ -6,9 +10,14 @@ namespace WorkRun.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            DateOnly date = DateOnly.FromDateTime(DateTime.Today);
-            DateTimeOffset dateTimeOffset = date.ToDateTime(new());
+            ReadFile();
+        }
+
+        private static void ReadFile()
+        {
+            string json = File.ReadAllText("Bag_3.json");
+            var root = JsonDocument.Parse(json).RootElement;
+            var result = JsonSerializer.Deserialize<List<BynmModel>>(root.GetProperty("ilKodu").ToString(), RunHelper.GetJsonSettings());
         }
     }
 }
