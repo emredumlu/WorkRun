@@ -1,0 +1,50 @@
+﻿{
+    "faaliyetCinsleri": [
+     {
+       "code": "1",
+       "description": "Bileşik Tesisler ile Konaklama Tesisleri İşletmeleri"
+     },
+     {
+       "code": "2",
+       "description": "Yeme-İçme ve Eğlence Tesisleri İşletmeleri"
+     },
+     {
+       "code": "3",
+       "description": "Deniz Turizmi Tesisleri ve Araçları İşletmeleri"
+     },
+     {
+       "code": "4",
+       "description": "Seyahat Acentaları İşletmeleri"
+     },
+     {
+       "code": "5",
+       "description": "Havayolu İşletmeleri"
+     },
+     {
+       "code": "6",
+       "description": "Havalimanı ve Terminal İşletmeleri"
+     }
+  ],
+ "indirimliFaaliyetCinsleri": [
+    {
+      "code": "1",
+      "description": "Kış Turizmi Tesisi İşletmeleri"
+    },
+    {
+      "code": "2",
+      "description": "Termal Turizm Tesisi İşletmeleri"
+    },
+    {
+      "code": "3",
+      "description": "Sağlık Turizmi Tesisi İşletmeleri"
+    },
+    {
+      "code": "4",
+      "description": "Kırsal Turizm Tesisi İşletmeleri"
+    },
+    {
+      "code": "5",
+      "description": "Nitelikli Spor Turizmi Tesisi İşletmeleri"
+    }
+ ]
+}

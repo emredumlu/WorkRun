@@ -15,9 +15,9 @@ namespace WorkRun.ConsoleApp
 
         private static void ReadFile()
         {
-            string json = File.ReadAllText("Bag_3.json");
+            string json = File.ReadAllText("Tourism_1.json");
             var root = JsonDocument.Parse(json).RootElement;
-            var result = JsonSerializer.Deserialize<List<BynmModel>>(root.GetProperty("ilKodu").ToString(), RunHelper.GetJsonSettings());
+            var result = JsonSerializer.Deserialize<List<BynmModel>>(root.GetProperty("indirimliFaaliyetCinsleri").ToString(), RunHelper.GetJsonSettings());
         }
     }
 }
